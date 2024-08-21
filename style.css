@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Laila:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #662716;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+img{
+    width: 200px;
+}
+
+h1{
+    font-size: 34px;
+    color: rgb(94, 66, 15);
+    font-family: "Laila", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(126, 119, 119);
+    font-family: "Laila", serif;
+    font-weight: 900;
+}
+
+.presentacion{
+    background-color: rgb(224, 213, 213);
+    width: 100%;
+    margin: 10px 0 10px 0;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(94, 66, 15);
+}
+
+.presentacion p{
+    width: 70%;
+    font-size:  30px;
+    padding: 10px;
+    font-family: "Laila", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(224, 213, 213);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja img{
+    border-radius: 50%;
+}
+
+.caja p{
+    font-size: 12px;
+}
+
+footer{
+    background-color: rgb(224, 213, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
